@@ -1,0 +1,28 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.menu {
+  margin-left: 250px;
+}
+
+.navbar-menu {
+}
+
+.nav-menu {
+  margin-top: 5px;
+}
+
+.nav-item {
+  margin: 0px 50px;
+}
+
+.nav-item .navlink {
+  padding: 15px;
+  text-decoration: none;
+}
+
+.nav-menu > .nav-item :hover {
+  background-color: antiquewhite;
+}

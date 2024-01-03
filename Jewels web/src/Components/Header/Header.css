@@ -1,0 +1,116 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-container {
+  height: 110px;
+  display: flex;
+}
+
+/* icon chung */
+
+.icon {
+  border-radius: 50%;
+  height: 38px;
+  width: 38px;
+  cursor: pointer;
+  padding: 1px 1px;
+}
+
+.img-logo {
+  width: 170px;
+}
+
+.img-logo .img {
+  height: 105px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.search {
+}
+
+.search > .search-button {
+  margin: 30px 0px;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.search-input {
+  border: 2px solid #b5e4f2;
+  position: relative;
+  border-radius: 16px;
+  width: 250px;
+}
+
+.search-button > .search-icon {
+  border: 1px #b5e4f2 solid;
+  position: absolute;
+  margin: 1px 215px;
+  cursor: pointer;
+}
+
+/* hotline và phone */
+.hotline {
+  margin-left: -25px;
+}
+
+.hotline-form {
+  margin-top: 29px;
+}
+
+.phone-icon {
+  margin-left: 40px;
+  border: 1px solid #b5e4f2;
+}
+
+.hotline-form span {
+  letter-spacing: 0px;
+  margin-left: 10px;
+}
+
+/* sing in + sign up */
+.signup_login {
+  margin-top: 33px;
+  width: 275px;
+}
+
+.signup_login .header-icon {
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.header-icon a {
+  text-decoration: none;
+  color: #000;
+}
+
+.header-icon a:hover {
+  color: #00bbff;
+}
+
+.border-col {
+  background-color: #000;
+  height: 22px;
+  width: 2px;
+}
+
+/* shopping */
+.shopping-button {
+  margin: 28px 0px;
+  float: left;
+  display: flex;
+}
+
+.shopping-button span {
+  margin-left: 8px;
+  font-size: 12px;
+}
+
+.shopping-button .money-pay {
+  width: 63px;
+  height: 27px;
+  font-size: 16px;
+}
